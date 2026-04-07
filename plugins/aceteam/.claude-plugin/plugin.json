@@ -1,0 +1,21 @@
+{
+  "name": "aceteam",
+  "description": "Manage AI agents, knowledge bases, documents, and workbenches on AceTeam. Create, update, and chat with agents. Search knowledge bases and manage MCP server connections.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AceTeam.ai",
+    "email": "support@aceteam.ai"
+  },
+  "homepage": "https://aceteam.ai",
+  "repository": "https://github.com/aceteam-ai/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "ai-agents",
+    "agent-management",
+    "knowledge-base",
+    "mcp",
+    "aceteam",
+    "safety",
+    "trust-engine"
+  ]
+}

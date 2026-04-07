@@ -1,0 +1,21 @@
+{
+  "name": "aceflows",
+  "description": "Build and run agentic AI workflows on AceTeam. Create visual workflow graphs, browse node types, and execute automation pipelines — all from your terminal.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AceTeam.ai",
+    "email": "support@aceteam.ai"
+  },
+  "homepage": "https://aceteam.ai",
+  "repository": "https://github.com/aceteam-ai/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "workflows",
+    "automation",
+    "agentic",
+    "aceflows",
+    "aceteam",
+    "pipelines",
+    "mcp"
+  ]
+}

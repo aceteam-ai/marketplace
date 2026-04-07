@@ -1,0 +1,6 @@
+{
+  "aceflows": {
+    "type": "http",
+    "url": "https://aceteam.ai/api/mcp/aceflows/mcp"
+  }
+}

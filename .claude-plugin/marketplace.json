@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "aceteam",
+  "description": "Claude Code plugins for AceTeam.ai — AI agent management, workflow automation, and safety infrastructure",
+  "owner": {
+    "name": "AceTeam.ai",
+    "email": "support@aceteam.ai"
+  },
+  "plugins": [
+    {
+      "name": "aceteam",
+      "description": "Manage AI agents, knowledge bases, documents, and workbenches on AceTeam. Create, update, and chat with agents. Search knowledge bases and manage MCP server connections.",
+      "source": "./plugins/aceteam",
+      "category": "productivity",
+      "homepage": "https://aceteam.ai"
+    },
+    {
+      "name": "aceflows",
+      "description": "Build and run agentic AI workflows on AceTeam. Create visual workflow graphs, browse node types, and execute automation pipelines — all from your terminal.",
+      "source": "./plugins/aceflows",
+      "category": "productivity",
+      "homepage": "https://aceteam.ai"
+    }
+  ]
+}

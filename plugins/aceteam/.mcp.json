@@ -1,6 +1,6 @@
 {
   "aceteam": {
-    "type": "http",
-    "url": "https://aceteam.ai/api/mcp/aceteam/mcp"
+    "command": "npx",
+    "args": ["-y", "mcp-remote@latest", "https://aceteam.ai/api/mcp/aceteam/mcp"]
   }
 }

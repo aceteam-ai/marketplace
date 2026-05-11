@@ -1,6 +1,6 @@
-# AceTeam Claude Code Plugins
+# AceTeam Marketplace
 
-Claude Code plugins for [AceTeam.ai](https://aceteam.ai) — AI agent management and workflow automation MCP servers.
+This marketplace repo contains Claude Code plugins for [AceTeam.ai](https://aceteam.ai) — AI agent management and workflow automation MCP servers.
 
 ## Plugins
 

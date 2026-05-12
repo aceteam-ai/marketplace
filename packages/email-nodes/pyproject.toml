@@ -1,0 +1,21 @@
+[project]
+name = "aceteam-email-nodes"
+version = "0.1.0"
+description = "Email workflow nodes for AceTeam: SMTP send, Gmail search, Gmail drafts"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "aceteam-workflow-engine>=2.0.0rc5",
+    "httpx>=0.28.0",
+]
+
+[project.entry-points."aceteam.nodes"]
+email = "email_nodes:register_nodes"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/email_nodes"]

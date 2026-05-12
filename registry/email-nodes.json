@@ -1,0 +1,19 @@
+{
+  "name": "email-nodes",
+  "version": "0.1.0",
+  "description": "Email workflow nodes: send via SMTP, search Gmail, create Gmail drafts",
+  "pypi": "aceteam-email-nodes",
+  "repository": "https://github.com/aceteam-ai/marketplace",
+  "nodes": [
+    "SmtpSend",
+    "GmailSearch",
+    "GmailDraft"
+  ],
+  "keywords": ["email", "gmail", "smtp", "send", "draft", "search"],
+  "author": {
+    "name": "AceTeam.ai",
+    "email": "support@aceteam.ai"
+  },
+  "license": "MIT",
+  "min_engine_version": "2.0.0rc5"
+}

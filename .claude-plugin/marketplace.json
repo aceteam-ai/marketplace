@@ -20,6 +20,13 @@
       "source": "./plugins/aceflows",
       "category": "productivity",
       "homepage": "https://aceteam.ai"
+    },
+    {
+      "name": "ace-local",
+      "description": "Run AceTeam workflows locally. List node types, execute DAG workflows, install community node packages, and search the registry — no server required.",
+      "source": "./plugins/ace-local",
+      "category": "productivity",
+      "homepage": "https://aceteam.ai"
     }
   ]
 }

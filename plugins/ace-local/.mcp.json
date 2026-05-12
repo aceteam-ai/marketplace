@@ -1,0 +1,6 @@
+{
+  "ace-local": {
+    "command": "uvx",
+    "args": ["--from", "aceteam-nodes[mcp]", "ace-local-mcp"]
+  }
+}

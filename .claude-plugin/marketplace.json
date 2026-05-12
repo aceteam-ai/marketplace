@@ -20,6 +20,17 @@
       "source": "./plugins/aceflows",
       "category": "productivity",
       "homepage": "https://aceteam.ai"
+    },
+    {
+      "name": "wengine",
+      "description": "Skill for exploring, composing, validating, and running typed workflows via the wengine CLI from aceteam-workflow-engine.",
+      "source": {
+        "source": "git-subdir",
+        "url": "aceteam-ai/workflow-engine",
+        "path": "plugins/wengine"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/aceteam-ai/workflow-engine"
     }
   ]
 }

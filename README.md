@@ -8,6 +8,7 @@ This marketplace repo contains Claude Code plugins for [AceTeam.ai](https://acet
 |--------|-------------|
 | **aceteam** | Manage AI agents, knowledge bases, documents, and workbenches |
 | **aceflows** | Build and run agentic AI workflows with visual graph editor |
+| **wengine** | Explore, compose, validate, and run typed workflows via the `wengine` CLI |
 
 ## Installation
 
@@ -22,12 +23,7 @@ This marketplace repo contains Claude Code plugins for [AceTeam.ai](https://acet
 ```
 /plugin install aceteam@aceteam
 /plugin install aceflows@aceteam
-```
-
-### Or install both at once
-
-```
-/plugin install aceteam@aceteam && /plugin install aceflows@aceteam
+/plugin install wengine@aceteam
 ```
 
 ## What you can do
@@ -46,6 +42,13 @@ This marketplace repo contains Claude Code plugins for [AceTeam.ai](https://acet
 - Browse available node types and their schemas
 - Run workflow pipelines and get results
 - Access graph templates for common patterns
+
+### wengine Plugin
+
+- Explore available workflow nodes and value schemas
+- Compose and validate typed workflow DAGs
+- Run single nodes for ad-hoc work or full workflows against typed inputs
+- Self-contained CLI launcher — no project-level install required
 
 ## Authentication
 

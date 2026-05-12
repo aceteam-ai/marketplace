@@ -1,0 +1,27 @@
+{
+  "name": "aceteam-nodes",
+  "version": "0.5.0",
+  "description": "Core workflow nodes: LLM text generation, HTTP API calls, and comparison operators",
+  "pypi": "aceteam-nodes",
+  "repository": "https://github.com/aceteam-ai/aceteam-nodes",
+  "nodes": [
+    "LLM",
+    "APICall",
+    "Equal",
+    "NotEqual",
+    "GreaterThan",
+    "GreaterThanEqual",
+    "LessThan",
+    "LessThanEqual",
+    "And",
+    "Or",
+    "Not"
+  ],
+  "keywords": ["llm", "api", "http", "comparison", "logic", "core"],
+  "author": {
+    "name": "AceTeam.ai",
+    "email": "support@aceteam.ai"
+  },
+  "license": "MIT",
+  "min_engine_version": "2.0.0rc5"
+}

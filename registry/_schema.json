@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AceTeam Node Package Registry Entry",
+  "type": "object",
+  "required": ["name", "version", "description", "pypi", "nodes"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Package name (must match PyPI name)"
+    },
+    "version": {
+      "type": "string",
+      "description": "Latest published version",
+      "pattern": "^\\d+\\.\\d+\\.\\d+([a-zA-Z0-9.]+)?$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of the package"
+    },
+    "pypi": {
+      "type": "string",
+      "description": "PyPI package name for pip/uv install"
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri",
+      "description": "Source repository URL"
+    },
+    "nodes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of node type names provided by this package"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Search keywords"
+    },
+    "author": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" }
+      },
+      "required": ["name"]
+    },
+    "license": {
+      "type": "string",
+      "default": "MIT"
+    },
+    "min_engine_version": {
+      "type": "string",
+      "description": "Minimum aceteam-workflow-engine version required"
+    }
+  }
+}

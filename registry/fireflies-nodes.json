@@ -1,0 +1,19 @@
+{
+  "name": "fireflies-nodes",
+  "version": "0.1.0",
+  "description": "Fireflies.ai transcript nodes: list, fetch, and search meeting transcripts",
+  "pypi": "aceteam-fireflies-nodes",
+  "repository": "https://github.com/aceteam-ai/marketplace",
+  "nodes": [
+    "FirefliesListTranscripts",
+    "FirefliesGetTranscript",
+    "FirefliesSearchTranscripts"
+  ],
+  "keywords": ["fireflies", "transcripts", "meetings", "search", "ai"],
+  "author": {
+    "name": "AceTeam.ai",
+    "email": "support@aceteam.ai"
+  },
+  "license": "MIT",
+  "min_engine_version": "2.0.0rc5"
+}
